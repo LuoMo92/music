@@ -1,0 +1,19 @@
+package ${entity.entityPackage};
+
+import com.wizinno.music.base.BaseEntity;
+import lombok.Data;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+/**
+ * @author ${entity.author}
+ */
+@Data
+@Entity
+@Table(name = "${entity.tableName}")
+public class ${entity.className} extends BaseEntity {
+
+    private static final long serialVersionUID = 1L;
+
+}

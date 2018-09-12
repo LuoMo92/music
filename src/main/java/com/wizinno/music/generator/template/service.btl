@@ -1,0 +1,13 @@
+package ${entity.servicePackage};
+
+import com.wizinno.music.base.BaseService;
+import com.wizinno.music.domain.${entity.className};
+
+
+/**
+ * ${entity.description}接口
+ * @author ${entity.author}
+ */
+public interface ${entity.className}Service extends BaseService<${entity.className},${entity.primaryKeyType}> {
+
+}

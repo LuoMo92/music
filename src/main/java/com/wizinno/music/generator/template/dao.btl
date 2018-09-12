@@ -1,0 +1,12 @@
+package ${entity.daoPackage};
+
+import com.wizinno.music.base.BaseDao;
+import com.wizinno.music.domain.${entity.className};
+
+/**
+ * ${entity.description}数据处理层
+ * @author ${entity.author}
+ */
+public interface ${entity.className}Dao extends BaseDao<${entity.className},${entity.primaryKeyType}> {
+
+}

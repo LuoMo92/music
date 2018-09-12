@@ -1,0 +1,23 @@
+package ${entity.controllerPackage};
+
+import com.wizinno.music.service.${entity.className}Service;
+import io.swagger.annotations.Api;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+/**
+ * @author ${entity.author}
+ */
+@Slf4j
+@RestController
+@Api(description = "${entity.description}管理接口")
+@RequestMapping("/api/${entity.classNameLowerCase}")
+public class ${entity.className}Controller{
+
+    @Autowired
+    private ${entity.className}Service ${entity.classNameLowerCase}Service;
+
+}
